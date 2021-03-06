@@ -1,0 +1,68 @@
+body {
+  	
+}
+
+
+
+/** online user list box **/
+
+
+
+
+
+
+
+
+.login-submit:active {
+  background: #a4c2f3;
+  -webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.4), 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.4), 0 1px rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+
+/******* Chat divs ********/
+
+.chatDiv{
+	
+	
+	width:265px;
+	float :right;
+	margin-right :2px;
+}
+
+.allChatDivs{
+	
+	right :0px;
+	bottom :0px;
+	z-index:9000;
+	
+	position:absolute;
+	height:auto;
+}
+.chatDivTitle{
+	height:20px;
+	width:262px;
+	background-color:#9fb6f2;
+	margin-left:3px ;	
+}
+.chatHistory{
+
+width: 262px;	
+}
+.chatBox{
+width: 262px;
+}
+.useroption{
+  width: 100%;
+  height: auto;
+  margin: 10px;
+	float:left;
+}
+
+select#boxTextDiv option {   
+	/*background:url('http://www.allergome.org/img/led_green.gif')  no-repeat scroll center top transparent;*/ß
+	float:left;
+} 

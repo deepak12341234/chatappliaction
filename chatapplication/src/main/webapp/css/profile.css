@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";/* Profile container */
+.profile {
+  margin: 20px 0;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 0px 0 0px 0;
+  background: #fff;
+}
+
+.profile-userpic img {
+  float: none;
+
+  margin-left: 10px;
+  width:150px;
+  height: 150px;
+  
+  -webkit-border-radius: 60% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+.profile-userpich img {
+  float: none;
+
+  margin-left: 10px;
+  width:70px;
+  height: 70px;
+  
+  -webkit-border-radius: 60% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+.profile-usertitle {
+  
+  margin-top: 20px;
+}
+

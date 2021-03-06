@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <welcome-file-list>
+    <welcome-file>home.jsp</welcome-file>
+</welcome-file-list>
+<servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>servlets.Register</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/Register</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>servlets.Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>servlets.Logout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>GetPhoto</servlet-name>
+        <servlet-class>servlets.GetPhoto</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetPhoto</servlet-name>
+        <url-pattern>/GetPhoto</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SearchProcess</servlet-name>
+        <servlet-class>servlets.SearchProcess</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchProcess</servlet-name>
+        <url-pattern>/SearchProcess</url-pattern>
+    </servlet-mapping>
+    
+     
+    
+    <servlet>
+        <servlet-name>SendMessage</servlet-name>
+        <servlet-class>servlets.SendMessage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SendMessage</servlet-name>
+        <url-pattern>/SendMessage</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DownloadFile</servlet-name>
+        <servlet-class>servlets.DownloadFile</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DownloadFile</servlet-name>
+        <url-pattern>/DownloadFile</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>changepassword</servlet-name>
+        <servlet-class>servlets.changepassword</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>changepassword</servlet-name>
+        <url-pattern>/changepassword</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>changePhoto</servlet-name>
+        <servlet-class>servlets.changePhoto</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>changePhoto</servlet-name>
+        <url-pattern>/changePhoto</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>editing</servlet-name>
+        <servlet-class>servlets.editing</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>editing</servlet-name>
+        <url-pattern>/editing</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SendMail</servlet-name>
+        <servlet-class>servlets.SendMail</servlet-class>
+    </servlet>
+   
+
+    <servlet-mapping>
+        <servlet-name>SendMail</servlet-name>
+        <url-pattern>/SendMail</url-pattern>
+    </servlet-mapping>
+ 
+      <servlet>
+    <display-name>DemoFileUploadServlet</display-name>
+    <servlet-name>demo</servlet-name>
+    <servlet-class>servlets.DemoFileUploadServlet</servlet-class>
+  </servlet>
+      <servlet>
+      	<description>
+      	</description>
+      	<display-name>sendStatus</display-name>
+      	<servlet-name>sendStatus</servlet-name>
+      	<servlet-class>servlets.sendStatus</servlet-class>
+      </servlet>
+      <servlet>
+      	<description>
+      	</description>
+      	<display-name>blockperson</display-name>
+      	<servlet-name>blockperson</servlet-name>
+      	<servlet-class>servlets.blockperson</servlet-class>
+      </servlet>
+      <servlet>
+      	<description>
+      	</description>
+      	<display-name>unblock</display-name>
+      	<servlet-name>unblock</servlet-name>
+      	<servlet-class>servlets.unblock</servlet-class>
+      </servlet>
+  <servlet-mapping>
+    <servlet-name>demo</servlet-name>
+    <url-pattern>/demo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>sendStatus</servlet-name>
+  	<url-pattern>/sendStatus</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>blockperson</servlet-name>
+  	<url-pattern>/blockperson</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>unblock</servlet-name>
+  	<url-pattern>/unblock</url-pattern>
+  </servlet-mapping>
+ 
+</web-app>
